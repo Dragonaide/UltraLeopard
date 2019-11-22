@@ -1,0 +1,20 @@
+{
+  
+  "manifest_version": 2,
+  "name": "UltraLeopard",
+  "version": "0.0.1",
+  
+  "description": "Graph like a boss.",
+  
+  "browser_action": {
+    "default_icon": "Components/ExtensionIcon.png"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+  
+}
